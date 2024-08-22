@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<TItle>HTML-basico</TItle>
+</head>
+
+<body>
+    <h1>HTML basico - codigos<br>
+        HTML 
+    </h1>
+
+    <p>Aprenda os principais basicos para confecção de um site em HTML para 
+       que voce posso fazer o seu primeiro site. 
+    </p>
+
+    <h2>Motivação</h2>
+        
+</body>
+<button><a href="trabalhando-com-links.html">Voltar</a></button>
+
+
+lorem*3
+
+
+</html>
