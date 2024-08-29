@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model</title>
+
+
+    <style>
+
+        section{
+        gap: 100px;
+
+        display: flex;
+            justify-content: center;
+        
+
+        }
+
+
+
+
+
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        main {
+            background-color: aqua;
+        }
+
+
+
+
+        body {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+        
+        }
+
+        article img {
+
+            height: 70px;
+            width: 60px;
+
+        }
+
+        article h1 {
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+
+        }
+
+        article p {
+            align-items: center;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 26px;
+            align-items: center;
+            color: rgb(0, 0, 0);
+        }
+
+
+        article {
+
+            display: flex;
+            width: 250px;
+            height: 250px;
+            padding: 10px;
+            border: 2px solid rgb(14, 178, 233);
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 2px 2px 5px black;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+
+        .caixa-azul {
+
+            background-color: rgb(2, 160, 252);
+            color: rgb(0, 136, 255);
+             
+        }
+    </style>
+</head>
+
+<body>
+
+    <article><img src="imagems/download.png">
+        <h1>Web Desing</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+
+
+    <article class="caixa-azul">
+        
+        <img src="imagems/Share Rounded.svg">
+        <h1>Web Desing</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+
+
+
+    <article><img src="imagems/Folder.png">
+        <h1>Web Desing</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

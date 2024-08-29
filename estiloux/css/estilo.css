@@ -1,49 +1,115 @@
-   /* reset de propriedade do css */
-   
-   *{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
 }
+
+main{background-color: aqua;}
+
+
+
+
+
+
+
+
+
+
 body{
-
-    background-color: rgb(255, 255, 255);
+background-color: rgb(0, 108, 136);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
 }
 
-.header-flex{
-    background-color: aliceblue;
-    width: 100%;
-    height: 80px;
-}
-h1{
-font-size: 30px;
-font-weight: 300;
-font-family:Arial, Helvetica, sans-serif
+article img{
+
+height: 70px;
+width:60px;
 
 }
-
-nav{
-border: 3px solid darkblue++    ;
-font-size: 35px;
+article h1{
+color: rgb(0, 0, 0);
+text-transform: uppercase;
 font-family: Arial, Helvetica, sans-serif;
-justify-content: flex-start;
-}
-
-.layout-grid{
-
-
-width: 100%;
-height: 100%;
-max-width: 992px;
-margin: 0 auto;
-background-color: beige;
-border: 1px solid salmon;
+font-size: 18px;
 
 }
-.header-flex{
+article p {
+align-items: center;
+display: flex;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 14px;
+align-items: center;
+}
+
+
+.article1{
+
 
     display: flex;
-    justify-content: space-between;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border: 2px solid rgb(14, 178, 233);
+    border-radius: 5px;
+    background-color:  rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px black;
+    align-items: center;
+    flex-direction: column;
+
+
 }
+
+
+
+article{
+
+display: flex;
+width: 180px;
+height: 180px;
+padding: 10px;
+border: 2px solid rgb(14, 178, 233);
+border-radius: 5px;
+background-color:  rgb(255, 255, 255);
+box-shadow: 2px 2px 5px black;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+body{
+    display: flex;
+justify-content: center;
+    background-color: lightblue
+
+    }  
+
+
+
+    h1{
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;  
+        font-size: 30px;
+        font-weight: 300px;
+        color: white;
+    }
+
+    .layout-grid{
+        width: 100%;
+        height: 100%;
+        max-width: 992px;
+        margin: 0 auto;
+        border: 3px solid white;
+    }
+
+
+    .header-flex{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
