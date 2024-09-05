@@ -124,13 +124,14 @@ main {
 
 
 
-aside article{
-    
+aside article {
+
     background-color: white;
 
 
 
-   }
+}
+
 .harmonia {
     /* border: 2px solid blue; */
 
@@ -145,10 +146,10 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     width: 250px;
     height: 100%;
-    background-color: #b0b0b0;
+    background-color: #b0b0b040;
 
 }
 
@@ -159,29 +160,47 @@ aside {
 
 }
 
-aside article h3{
+aside article h3 {
+    width: 100%;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.352);
 
-background-color: white;
-text-transform: uppercase;
-text-align: center;
-padding:10px ;
-border: 2px solid black;
+
+}
+
+aside .buscar-box {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+img {
+
+    margin: 7px;
+
 
 }
 
-.buscar{
-height: 20%;
-
-margin-bottom: 3px;
-
+aside article input {
+    border: 1px solid #a8a8a8;
+    outline: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
-.post{
 
-width: 40%;
-margin-bottom: 3px;
-}
-.Inscreva-se{
+aside article button {
 
-width: 40%;
-margin-bottom: 3px;
+    background-color: #727272;
+    color: white;
+    border: none;
+    border: 1px solid #727272;
+    cursor: pointer;
 }
